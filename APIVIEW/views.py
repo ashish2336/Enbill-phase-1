@@ -5,6 +5,12 @@ from rest_framework import status
 from rest_framework.response import Response
 from rest_framework.views import APIView
 from django.http import Http404
+from drf_yasg.utils import swagger_auto_schema
+# from .schema import*
+from django.http.response import JsonResponse
+from rest_framework.parsers import JSONParser 
+
+
 """Marketing person"""
 class Marketing_ProfileAPI(APIView):
     def get(self, request, pk=None, format=None):
