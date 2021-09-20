@@ -25,7 +25,7 @@ SECRET_KEY = 'qky!34tyb+imf+e#^64c!g4=!^3xen$w@h2^+mq+f+$fu$fj4$'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['enbill.in']
 
 
 # Application definition
