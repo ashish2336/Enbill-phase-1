@@ -1,4 +1,4 @@
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/dcsl/public_html/
+    - export DEPLOYPATH=/home/dcsl/public_html/enbill.in
     - /bin/cp * $DEPLOYPATH
